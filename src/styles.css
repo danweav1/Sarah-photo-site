@@ -14,4 +14,17 @@
     -moz-background-size: cover;
     -o-background-size: cover;
   }
+
+  div.preload-images {
+    background: url("../public/img/bg1-1920x1080.jpg") no-repeat -9999px -9999px;
+    background: url("../public/img/bg1-1920x1080.jpg") no-repeat -9999px -9999px,
+      url("../public/img/bg2-1920x1080.jpg") no-repeat -9999px -9999px,
+      url("../public/img/bg3-1920x1080.jpg") no-repeat -9999px -9999px,
+      url("../public/img/bg4-1920x1080.jpg") no-repeat -9999px -9999px,
+      url("../public/img/bg5-1920x1080.jpg") no-repeat -9999px -9999px,
+      url("../public/img/bg6-1920x1080.jpg") no-repeat -9999px -9999px,
+      url("../public/img/bg7-1920x1080.jpg") no-repeat -9999px -9999px,
+      url("../public/img/bg8-1920x1080.jpg") no-repeat -9999px -9999px,
+      url("../public/img/bg9-1920x1080.jpg") no-repeat -9999px -9999px;
+  }
 }
