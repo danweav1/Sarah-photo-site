@@ -14582,11 +14582,94 @@ video {
           animation: bounce 1s infinite;
 }
 
-#animated-bg {
-  background: url("../public/img/bg1-1920x1080.jpg") no-repeat center center;
-  transition: 3s ease-in-out;
+@-webkit-keyframes backswitch {
+  0% {
+    background-image: url("../public/img/bg1-1920x1080.jpg");
+  }
+
+  12.5% {
+    background-image: url("../public/img/bg2-1920x1080.jpg");
+  }
+
+  25% {
+    background-image: url("../public/img/bg3-1920x1080.jpg");
+  }
+
+  37.5% {
+    background-image: url("../public/img/bg4-1920x1080.jpg");
+  }
+
+  50% {
+    background-image: url("../public/img/bg5-1920x1080.jpg");
+  }
+
+  62.5% {
+    background-image: url("../public/img/bg6-1920x1080.jpg");
+  }
+
+  75% {
+    background-image: url("../public/img/bg7-1920x1080.jpg");
+  }
+
+  87.5% {
+    background-image: url("../public/img/bg8-1920x1080.jpg");
+  }
+
+  100% {
+    background-image: url("../public/img/bg9-1920x1080.jpg");
+  }
+}
+
+@keyframes backswitch {
+  0% {
+    background-image: url("../public/img/bg1-1920x1080.jpg");
+  }
+
+  12.5% {
+    background-image: url("../public/img/bg2-1920x1080.jpg");
+  }
+
+  25% {
+    background-image: url("../public/img/bg3-1920x1080.jpg");
+  }
+
+  37.5% {
+    background-image: url("../public/img/bg4-1920x1080.jpg");
+  }
+
+  50% {
+    background-image: url("../public/img/bg5-1920x1080.jpg");
+  }
+
+  62.5% {
+    background-image: url("../public/img/bg6-1920x1080.jpg");
+  }
+
+  75% {
+    background-image: url("../public/img/bg7-1920x1080.jpg");
+  }
+
+  87.5% {
+    background-image: url("../public/img/bg8-1920x1080.jpg");
+  }
+
+  100% {
+    background-image: url("../public/img/bg9-1920x1080.jpg");
+  }
+}
+
+body {
+  background-repeat: no-repeat;
+  background-position: center center;
   min-height: 100vh;
   position: relative;
+  -webkit-animation-name: backswitch;
+          animation-name: backswitch;
+  -webkit-animation-duration: 30s;
+          animation-duration: 30s;
+  -webkit-animation-iteration-count: infinite;
+          animation-iteration-count: infinite;
+  background-size: cover;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
