@@ -1,5 +1,10 @@
 module.exports = {
-  purge: [],
+  purge: [
+    './src/styles.css',
+    './public/index.html',
+    './public/styles.css',
+    './public/js/animate-background.js'
+  ],
   darkMode: false, // or 'media' or 'class'
   theme: {
     extend: {
@@ -7,10 +12,5 @@ module.exports = {
         body: ['Nunito']
       }
     }
-  },
-  variants: {
-    extend: {
-    },
-  },
-  plugins: [],
+  }
 }
