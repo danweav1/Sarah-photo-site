@@ -8,7 +8,7 @@
 
     #animated-bg {
         background: url('../public/img/bg1-1920x1080.jpg') no-repeat center center;
-        transition:  3s;
+        transition: 3s ease-in-out;
         min-height: 100vh;
         position: relative;
       }
