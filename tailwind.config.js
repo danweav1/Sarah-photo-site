@@ -8,6 +8,9 @@ module.exports = {
   darkMode: false, // or 'media' or 'class'
   theme: {
     extend: {
+      colors: {
+        aqua: '#00F7FF'
+      },
       fontFamily: {
         body: ['Nunito']
       }
